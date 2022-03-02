@@ -1,0 +1,44 @@
+
+.teatr{
+    padding: 150px 0;
+}
+.teatr__remo{
+    display: flex;
+    max-width: 1110px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 126px 95px 126px 190px;
+ 
+        background: url("../../img/teatr-ploshat.png") no-repeat center center;
+        // background-size: cover;
+       
+    
+}
+.teatr__list{
+    @include reset-list;
+    margin-right: 103px;
+}
+.teatr__item{
+    font-family:$open-sans;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 98px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #D1A954;
+
+}
+.teatr__text{
+    font-family:$open-sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 150%;
+color: #FFFFFF;
+
+}
+.teatr__img-yulduz{
+ margin-right: 25px;
+ margin-bottom: 25px;
+}

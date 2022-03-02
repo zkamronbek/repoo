@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    padding: 30px 0;
+}
+.footer__link{
+    margin-right: 714px;
+    font-family:$open-sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 150%;
+
+text-align: right;
+color: #989898;
+&:nth-child(2n){
+    margin-right:0;
+}
+}
